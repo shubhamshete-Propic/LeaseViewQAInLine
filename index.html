@@ -70,32 +70,13 @@
         color: white;
       }
     </style>
+
     <script src="https://phoenixinlineuviewqast.z8.web.core.windows.net/aiconcierge.js"></script>
     <script>
       if (window.Assistant) {
         let assistant = new Assistant({
           target: "target-chat-id",
           apiKey: "25f74f43-e93d-452a-82f3-0d7adecf2679",
-          productId: "random-id",
-          chatBotType: "LeaseConcierge",
-        });
-        window.onload = function () {
-          assistant.init();
-        };
-      }
-      if (window.dispatcher) {
-        dispatcher.on("bot-ready", (e) => {
-          console.log(e.detail);
-        });
-      }
-    </script>
-    <!-- <script src="./aiconcierge.js"></script> -->
-    <script src="https://phoenixinlineuviewqast.z8.web.core.windows.net/aiconcierge.js"></script>
-    <script>
-      if (window.Assistant) {
-        let assistant = new Assistant({
-          target: "target-chat-id",
-          apiKey: "B4B3EDA6-B3A7-4947-935A-5B0A1C2F7B8C",
           productId: "random-id",
           chatBotType: "LeaseConcierge",
         });
@@ -166,7 +147,7 @@
         alt="Sample Image"
         width="400"
       />
-      <h1>Welcome to View QA InLine Sales</h1>
+      <h1>Welcome to View QA InLine Lease</h1>
     </header>
 
     <section>
@@ -202,7 +183,7 @@
         >
           <h2>Lease Calculator</h2>
           <div>
-            <label for="leaseAmount">Lease Amount:</label>
+            <label for="LeaseAmount">Lease Amount:</label>
             <input
               type="number"
               id="leaseAmount"
@@ -263,7 +244,7 @@
     >
       <h3 style="margin-top: 0" id="popupTitle">Hello there! 👋</h3>
       <p id="popupDescription">
-        Welcome to View QA InLine Sales. Need help with lease calculations or
+        Welcome to View QA InLine Lease. Need help with lease calculations or
         property info?
       </p>
       <button
